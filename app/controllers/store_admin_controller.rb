@@ -4,6 +4,6 @@ class StoreAdminController < ActionController::Base
   end
 
   def orders
-    render :layout => "admin"
+    render :layout => "order_administration"
   end
 end
